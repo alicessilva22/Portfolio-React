@@ -33,8 +33,8 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <a href="https://www.linkedin.com/in/alice-silva-b698791ab/" target="_blank"><AiFillLinkedin /> </a>
-            <a href="https://github.com/alicessilva22" target="_blank"><AiFillGithub /></a>
+            <a href="https://www.linkedin.com/in/alice-silva-b698791ab/" target="_blank" rel="noreferrer"><AiFillLinkedin /> </a>
+            <a href="https://github.com/alicessilva22" target="_blank" rel="noreferrer"><AiFillGithub /></a>
           </div>
           <div className="flex justify-center mt-20">
             <Image className="rounded-full" src={alice} />

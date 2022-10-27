@@ -74,32 +74,32 @@ export default function Home() {
 
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
               <div className="shadow-xl basis-1/3 flex-1">
-              <a href="https://varuntanna.github.io/ProjectOne/index.html">
+              <a href="https://varuntanna.github.io/ProjectOne/index.html" target="_blank" rel="noreferrer">
                 <Image src={recipes} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75" />
                 </a>
               </div>
               <div className="shadow-xl basis-1/3 flex-1">
-                <a href="https://github.com/kleylakb89/book-nook">
+                <a href="https://github.com/kleylakb89/book-nook" target="_blank" rel="noreferrer">
                 <Image src={BookNook} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75"/>
                 </a>
               </div>
               <div className="shadow-xl basis-1/3 flex-1">
-                <a href="https://alicessilva22.github.io/Password-Generator/">
+                <a href="https://alicessilva22.github.io/Password-Generator/" target="_blank" rel="noreferrer">
                 <Image src={password} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75"/>
                 </a>
               </div>
               <div className="shadow-xl basis-1/3 flex-1">
-                <a href="https://alicessilva22.github.io/Calendar-Module05/">
+                <a href="https://alicessilva22.github.io/Calendar-Module05/" target="_blank" rel="noreferrer">
                 <Image src={scheduler} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75"/>
                 </a>
               </div>
               <div className="shadow-xl basis-1/3 flex-1">
-                <a href="https://github.com/alicessilva22/Java-Locator">
+                <a href="https://github.com/alicessilva22/Java-Locator" target="_blank" rel="noreferrer">
                 <Image src={JavaLocator} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75"/>
                 </a>
               </div>
               <div className="shadow-xl basis-1/3 flex-1">
-                <a href="https://youtu.be/quNzAkuk2MA">
+                <a href="https://youtu.be/quNzAkuk2MA" target="_blank" rel="noreferrer">
                 <Image src={SQL} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75" />
                 </a>
               </div>

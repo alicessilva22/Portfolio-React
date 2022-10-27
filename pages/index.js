@@ -8,8 +8,7 @@ import BookNook from "../public/BookNook.jpeg";
 import password from "../public/password.jpeg";
 import scheduler from "../public/scheduler.jpeg";
 import JavaLocator from "../public/JavaLocator.jpeg";
-import web6 from "../public/web6.png";
-// import { Document } from "react-pdf";
+import SQL from "../public/SQL.png";
 
 export default function Home() {
 
@@ -63,37 +62,46 @@ export default function Home() {
           <section>
             <div>
               <h3 className="text-3xl py-2">Portfolio</h3>
-              <p className="text-md py-5 leading-8 text-gray-800">
-                Software Developer with experience using MongoDB, Express, React, Node.
-                Knowledgeable of JavaScripts tools, software development, design, and testing.
-                Skilled in REST API development.
-                Fast-learner, hard-worker, and creative problem solver with demonstrated years of focused learning and being a team-player.</p>
-              <p>Full-time bootcamp student working individually and in groups in different software development projects.
-                Employed best coding practices and object-oriented programming techniques.
-                Contributed to open source projects using Git version control.</p>
-                <p>Classical violinist turned software developer. Powered by coffee and curiosity. I have an extensive educational background and passion for learning. I recently graduated from the UNC Charlotte Full Stack Software Development Coding Bootcamp with developed skills in HTML, JavaScript, CSS, React.js, Express.js, Node.js, and MongoDb. I am a determined problem solver and I thrive in fast-paced environments. I strive to leverage my musical and linguistic background to develop a more creative and user-friendly web experience, as well as my military background to employ a high-level of focus, adaptability and discipline in the ever-evolving web engineering field. 
-Feel free to message me! I am always open to talk about tech, coding, music, jobs and coffee.
-Thanks for visiting my profile!</p>
+              <p className="text-md py-2  leading-8 text-gray-800">
+                Hello! This is Alice, I am a Software Developer with experience in JavaScript and the MERN stack: MongoDB, Express, React, Node. I work with software development, design, and testing.</p>
+                
+                <p className="text-md py-2 leading-8 text-gray-800">Fast-learner, hard-worker, and creative problem-solver, I strive to create a more intuitive and user-friendly experience while employing best coding practices and object-oriented programming techniques.</p>
+               
+                <p className="text-md py-2 leading-8 text-gray-800">I am experienced working with teams and contributing to open source projects using Git version control.</p>
+             
+
             </div>
 
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
               <div className="shadow-xl basis-1/3 flex-1">
-                <Image src={recipes} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+              <a href="https://varuntanna.github.io/ProjectOne/index.html" target="_blank">
+                <Image src={recipes} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75" />
+                </a>
               </div>
               <div className="shadow-xl basis-1/3 flex-1">
-                <Image src={BookNook} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+                <a href="https://github.com/kleylakb89/book-nook" target="_blank">
+                <Image src={BookNook} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75"/>
+                </a>
               </div>
               <div className="shadow-xl basis-1/3 flex-1">
-                <Image src={password} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+                <a href="https://alicessilva22.github.io/Password-Generator/" target="_blank">
+                <Image src={password} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75"/>
+                </a>
               </div>
               <div className="shadow-xl basis-1/3 flex-1">
-                <Image src={scheduler} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+                <a href="https://alicessilva22.github.io/Calendar-Module05/" target="_blank">
+                <Image src={scheduler} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75"/>
+                </a>
               </div>
               <div className="shadow-xl basis-1/3 flex-1">
-                <Image src={JavaLocator} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+                <a href="https://github.com/alicessilva22/Java-Locator" target="_blank">
+                <Image src={JavaLocator} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75"/>
+                </a>
               </div>
               <div className="shadow-xl basis-1/3 flex-1">
-                <Image src={web6} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
+                <a href="https://youtu.be/quNzAkuk2MA" target="_blank">
+                <Image src={SQL} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75" />
+                </a>
               </div>
             </div>
 

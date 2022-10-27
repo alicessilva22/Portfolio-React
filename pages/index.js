@@ -74,32 +74,32 @@ export default function Home() {
 
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
               <div className="shadow-xl basis-1/3 flex-1">
-              <a href="https://varuntanna.github.io/ProjectOne/index.html" target="_blank">
+              <a href="https://varuntanna.github.io/ProjectOne/index.html">
                 <Image src={recipes} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75" />
                 </a>
               </div>
               <div className="shadow-xl basis-1/3 flex-1">
-                <a href="https://github.com/kleylakb89/book-nook" target="_blank">
+                <a href="https://github.com/kleylakb89/book-nook">
                 <Image src={BookNook} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75"/>
                 </a>
               </div>
               <div className="shadow-xl basis-1/3 flex-1">
-                <a href="https://alicessilva22.github.io/Password-Generator/" target="_blank">
+                <a href="https://alicessilva22.github.io/Password-Generator/">
                 <Image src={password} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75"/>
                 </a>
               </div>
               <div className="shadow-xl basis-1/3 flex-1">
-                <a href="https://alicessilva22.github.io/Calendar-Module05/" target="_blank">
+                <a href="https://alicessilva22.github.io/Calendar-Module05/">
                 <Image src={scheduler} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75"/>
                 </a>
               </div>
               <div className="shadow-xl basis-1/3 flex-1">
-                <a href="https://github.com/alicessilva22/Java-Locator" target="_blank">
+                <a href="https://github.com/alicessilva22/Java-Locator">
                 <Image src={JavaLocator} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75"/>
                 </a>
               </div>
               <div className="shadow-xl basis-1/3 flex-1">
-                <a href="https://youtu.be/quNzAkuk2MA" target="_blank">
+                <a href="https://youtu.be/quNzAkuk2MA">
                 <Image src={SQL} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" class="transform transition-all hover:scale-75" />
                 </a>
               </div>
